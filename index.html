@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="prof. website.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="nav-wrapper">
+            <div class="left-side">
+
+                <div class="nav-link-wrapper">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="brand">
+                    <div>ELVIS CHRISTOPHER</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="portfolio-items-wrapper">
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/coding.jpg)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/logos/logo1.png">
+
+                        </div>
+
+                        <div class="subtitle">
+                            CODING
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/graphics.jpg)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/logos/logo1.png">
+
+                        </div>
+
+                        <div class="subtitle">
+                            GRAPHICS
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/game.jpg)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/logos/logo1.png">
+
+                        </div>
+
+                        <div class="subtitle">
+                            GAMING
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/social.jpg)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/logos/logo1.png">
+
+                        </div>
+
+                        <div class="subtitle">
+                            SOCIAL MEDIA
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/hardware.jpg)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/logos/logo1.png">
+
+                        </div>
+
+                        <div class="subtitle">
+                            HARDWARE DESIGN
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/HR.jpg)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/logos/logo1.png">
+
+                        </div>
+
+                        <div class="subtitle">
+                            HR
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/vlog.png)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/logos/logo1.png">
+
+                        </div>
+
+                        <div class="subtitle">
+                            VLOG
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/train.jpg)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/logos/logo1.png">
+
+                        </div>
+
+                        <div class="subtitle">
+                            TRAINING
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/digital.jpg)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/logos/logo1.png">
+
+                        </div>
+
+                        <div class="subtitle">
+                            DIGITAL MARKETING
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/ui.png)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/logos/logo1.png">
+
+                        </div>
+
+                        <div class="subtitle">
+                            UI/UX DESIGN
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/social.jpg)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/logos/logo1.png">
+
+                        </div>
+
+                        <div class="subtitle">
+                            SOCIAL
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/api.jpg)"></div>
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="images/logos/logo1.png">
+
+                        </div>
+
+                        <div class="subtitle">
+                            API
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+</body>
+
+<script>
+    const portfolioItems1 = document.querySelectorAll('.portfolio-item-wrapper')
+    portfolioItems1.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover', () => {
+           portfolioItem.childNodes[1].classList.add('img-darken');
+        })
+        portfolioItem.addEventListener('mouseout', () => {
+           portfolioItem.childNodes[1].classList.remove('img-darken');
+        }) 
+    })   
+
+
+
+</script>
+
+</html>
