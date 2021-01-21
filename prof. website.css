@@ -102,4 +102,30 @@ transition: border-bottom 0.5s;
     transition: 1s;
     filter: brightness(10%);
 }
+
+
+
+.two-column-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.profile-image-wrapper img{
+    width: 100%;
+
+}
+
+.profile-content-wrapper{
+    padding: 30px;
+
+}
+
+.profile-content-wrapper h1{
+    color: lightseagreen;
+}
+
+
+
+
+
+
 }
